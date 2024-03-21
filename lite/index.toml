@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "46cefeae8cefc81255775495ec85376d026025002effe8dab9f2409b22dca1d9"
+hash = "adfb5d0a3bbad12a13e0dfc7578d6dfd672f551357569f2c2bea079a800f0d78"
 
 [[files]]
 file = "mods/amecs.pw.toml"
@@ -10,23 +10,8 @@ hash = "4e28293f194a17008f05bdd638cbf09b02470e78c20cf6ef82d64759f126964f"
 metafile = true
 
 [[files]]
-file = "mods/animatica.pw.toml"
-hash = "f0463f1b50e2c2ab3c726b14236b22e07ce9be4896528ede9d51486a212a5c07"
-metafile = true
-
-[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "3b3eb136a09515edaa9d3b6fba49ac2d025c1dba4a5a0d9d7fdab1e17c6bddfb"
-metafile = true
-
-[[files]]
-file = "mods/better-mount-hud.pw.toml"
-hash = "961a423cc427d4c785354239e8e7b251b5575756b1cf85dd1bc85011b47f0fbf"
-metafile = true
-
-[[files]]
-file = "mods/betterf3.pw.toml"
-hash = "8b13db034aecef8d45addf4f12aa024d35b905ae144df48542683e1b162ba4f9"
 metafile = true
 
 [[files]]
@@ -40,28 +25,8 @@ hash = "9fb071407761cdb22323713a3f24ca27f04bb67c0ea455ee2e73778c6ecece75"
 metafile = true
 
 [[files]]
-file = "mods/capes.pw.toml"
-hash = "617563db0d44229fb65eb660130d02d1a4d2f29233eda03b68d3273e700326f8"
-metafile = true
-
-[[files]]
-file = "mods/chunky.pw.toml"
-hash = "e3ca186b116bd65d49fb0db709a1b37d303318e3afb2e06bc662313b53346d06"
-metafile = true
-
-[[files]]
-file = "mods/cit-resewn.pw.toml"
-hash = "18920e315d1861bd788cca10fade9beb86678f943823b7deaf48880a822426bf"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "f250d6778f5b8d03ca32913bea5ea677508e9bb6d8201cdebe005bbe9c3100ee"
-metafile = true
-
-[[files]]
-file = "mods/continuity.pw.toml"
-hash = "ab1c014ce67654e89af779137bdfd1f6f22888af218f44cf5d83e943d0d5fbc4"
 metafile = true
 
 [[files]]
@@ -105,21 +70,6 @@ hash = "d74850aaf1ed5a53805d523aa2b624f58c43813446be0b6c066a599c80d704e6"
 metafile = true
 
 [[files]]
-file = "mods/fabricskyboxes-interop.pw.toml"
-hash = "f80e4a46fab9a9c99ebf3193f2c73675f6f6659fcd740692e14501213f633c70"
-metafile = true
-
-[[files]]
-file = "mods/fabricskyboxes.pw.toml"
-hash = "4d979c0f0902b82fc22fc60b741d3a9ce8331de9ffcc4f54658af92ff8ff8a81"
-metafile = true
-
-[[files]]
-file = "mods/fabrishot.pw.toml"
-hash = "b91224d8b6110cbeca20c7905f2ae6032e8ccd992733829fbc6a79d2da957839"
-metafile = true
-
-[[files]]
 file = "mods/fastquit.pw.toml"
 hash = "ff278c8a9a5e56d412fb2e7106790b0ac33b0a4a8699978f0ae4d5a2c70c63b3"
 metafile = true
@@ -140,11 +90,6 @@ hash = "e416b18eebf514dea2014cf5c7fd3ee8493934a0b4e937509f15172ad271fde2"
 metafile = true
 
 [[files]]
-file = "mods/iris.pw.toml"
-hash = "7169f560465ba70f204d3c4189cf3d1faef8ae6cf3dc063733a4d53f612a4d94"
-metafile = true
-
-[[files]]
 file = "mods/krypton.pw.toml"
 hash = "fe6abe1ea33393fe1441801f79eda74ea892e5f4b677a56eccafafcbf4d253ca"
 metafile = true
@@ -152,11 +97,6 @@ metafile = true
 [[files]]
 file = "mods/ksyxis.pw.toml"
 hash = "2fa3ea42c8afb4a8959b689d099d6b9ecf55a5b0f17d350d6d00d33d83053b32"
-metafile = true
-
-[[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "d398662ae6e9d87e89384ba50a9787dbeb9425902a18b0cd8239efd0b966b453"
 metafile = true
 
 [[files]]
@@ -205,16 +145,6 @@ hash = "a045df0a5d03ef89d92ca9318aa42a5a5e7617b37dd38d32b0a7058c0f6f4ef7"
 metafile = true
 
 [[files]]
-file = "mods/optigui.pw.toml"
-hash = "8bb727360596439b65a6bc057ccd0a51996e529948c59d41c35db05ee35ca559"
-metafile = true
-
-[[files]]
-file = "mods/puzzle.pw.toml"
-hash = "0e59d00de821ce2095849c161e17e03d12a768d18859e813086adeaa71fd037b"
-metafile = true
-
-[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "975478c93b1218131fd48695cd7efb9bbe0d69125409940b015a7058e42fb6be"
 metafile = true
@@ -240,14 +170,5 @@ hash = "0e64714c116db266b1c35b0fea980d0ad75ddee7639d13f89d5cedf6c7e336e7"
 metafile = true
 
 [[files]]
-file = "mods/zoomify.pw.toml"
-hash = "7005e926a32cfe6e1191ea0da9f65635e28f9dec4d827044c43da622697ba9c2"
-metafile = true
-
-[[files]]
 file = "resourcepacks/VanillaTweaks_r348484 [Basic].zip"
 hash = "7be8cb0700b4ef24c795ab4a2e40aeb1ea0d693dcbf82f431edfc9ba9c785701"
-
-[[files]]
-file = "resourcepacks/VanillaTweaks_r713179 [Enhanced].zip"
-hash = "f458feb1f032a3bcd84b72c3c17f14b43230af94981f9da1decc78ff1ab92c77"

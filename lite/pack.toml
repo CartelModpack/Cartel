@@ -1,4 +1,4 @@
-name = "Cartel"
+name = "Cartel [Lite]"
 author = "gavinhsmith"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3a070f812dedf64000727aa054038ae460dd56a6bfcf89ad4464075281b0e24d"
+hash = "929d9f04784d9165742b6bfba3e18cbbfe2e431831f0b6e4117570b3ee01b65c"
 
 [versions]
 fabric = "0.15.7"
