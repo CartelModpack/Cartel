@@ -5,6 +5,10 @@ file = "config/isxander-main-menu-credits.json"
 hash = "c5591158f7490cab76bb3febff33207a01fd8527d3bc037cd5f02a4da88788a5"
 
 [[files]]
+file = "config/modmenu.json"
+hash = "ce9a7f785e40494bb02d83fd608b067f9ebceda928fd705bd5aaafbfe6295bd9"
+
+[[files]]
 file = "mods/advancementinfo.pw.toml"
 hash = "b4897ff5706d7452917b6f8559210f60ae301c811a042df57df31c989e990b54"
 metafile = true
