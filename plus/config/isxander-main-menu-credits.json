@@ -1,12 +1,12 @@
 {
   "main_menu": {
     "bottom_right": [
-      "Cartel [Plus] v1.0.0", "By @gavinhsmith"
+      "By @gavinhsmith", "Cartel [Plus] v1.0.0"
     ]
   },
   "pause_menu": {
     "bottom_right": [
-      "Cartel [Plus] v1.0.0", "By @gavinhsmith"
+      "By @gavinhsmith", "Cartel [Plus] v1.0.0"
     ]
   }
 }
