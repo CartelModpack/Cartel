@@ -9,7 +9,7 @@ hash = "4b5c7997a1623b2eeaf9bcf424b829650500e3c3"
 
 [meta]
 author = "Vanilla Tweaks"
-web = "https://vanillatweaks.net/"
+url = "https://vanillatweaks.net/"
 [meta.license]
 name = "VanillaTweaks Standard License"
 url = "https://vanillatweaks.net/terms/"
