@@ -250,10 +250,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_basic.pw.toml"
-hash = "6812d4220da9f4200c9ecb11eee0648975aa4c86236b9a7cf025f4a0239d31c7"
+hash = "b924d4ddaa385c333fa4cc9b9876f284a78c6b23f637415fae5f1f2fd2cd8f0d"
 metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_enhanced.pw.toml"
-hash = "130023ef27b66e0cac5d8f8962344da450dd941045f4209f62503f2b31178fc8"
+hash = "2870d7cc03e3ca22799202361580feacf1c2d200c356087fe42fd8d267b71d56"
 metafile = true
