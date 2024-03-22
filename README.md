@@ -10,4 +10,4 @@ Cartel is a Minecraft optimization modpack centered on bringing next-generation 
 
 ## Installation
 
-Avalible on [Modrinth](https://modrinth.com/modpack/cartel), or as a MultiMC pack from [Releases](releases).
+Avalible on [Modrinth](https://modrinth.com/modpack/cartel), or as a MultiMC pack from [Releases](https://github.com/CartelModpack/Cartel/releases).
