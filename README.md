@@ -1,4 +1,4 @@
-![Cartel](icons/logo.png)
+![Cartel](https://raw.githubusercontent.com/CartelModpack/Cartel/master/icons/logo.png)
 
 # Cartel
 
