@@ -1,4 +1,4 @@
-![Cartel](blob/master/icons/logo.png)
+![Cartel](icons/logo.png)
 
 # Cartel
 
