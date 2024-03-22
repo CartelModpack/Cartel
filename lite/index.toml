@@ -174,5 +174,6 @@ hash = "0e64714c116db266b1c35b0fea980d0ad75ddee7639d13f89d5cedf6c7e336e7"
 metafile = true
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_r348484 [Basic].zip"
-hash = "7be8cb0700b4ef24c795ab4a2e40aeb1ea0d693dcbf82f431edfc9ba9c785701"
+file = "resourcepacks/vanillatweaks_basic.pw.toml"
+hash = "6812d4220da9f4200c9ecb11eee0648975aa4c86236b9a7cf025f4a0239d31c7"
+metafile = true

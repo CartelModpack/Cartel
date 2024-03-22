@@ -249,9 +249,11 @@ hash = "7005e926a32cfe6e1191ea0da9f65635e28f9dec4d827044c43da622697ba9c2"
 metafile = true
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_r348484 [Basic].zip"
-hash = "7be8cb0700b4ef24c795ab4a2e40aeb1ea0d693dcbf82f431edfc9ba9c785701"
+file = "resourcepacks/vanillatweaks_basic.pw.toml"
+hash = "6812d4220da9f4200c9ecb11eee0648975aa4c86236b9a7cf025f4a0239d31c7"
+metafile = true
 
 [[files]]
-file = "resourcepacks/VanillaTweaks_r713179 [Enhanced].zip"
-hash = "f458feb1f032a3bcd84b72c3c17f14b43230af94981f9da1decc78ff1ab92c77"
+file = "resourcepacks/vanillatweaks_enhanced.pw.toml"
+hash = "130023ef27b66e0cac5d8f8962344da450dd941045f4209f62503f2b31178fc8"
+metafile = true

@@ -1,0 +1,15 @@
+name = "VanillaTweaks [Enhanced]"
+filename = "VanillaTweaks [Enhanced].zip"
+side = "client"
+
+[download]
+url = "https://theatrekids.uk/cartel/protected/1.0.0/resources/VanillaTweaks [Enhanced].zip"
+hash-format = "sha1"
+hash = "29b0ccffc8ee807488fb6aff3132ae2693fdb484"
+
+[meta]
+author = "Vanilla Tweaks"
+web = "https://vanillatweaks.net/"
+[meta.license]
+name = "VanillaTweaks Standard License"
+url = "https://vanillatweaks.net/terms/"
