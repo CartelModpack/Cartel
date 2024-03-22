@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://theatrekids.uk/cartel/protected/1.0.0/resources/VanillaTweaks [Enhanced].zip"
-hash-format = "sha1"
-hash = "29b0ccffc8ee807488fb6aff3132ae2693fdb484"
+hash-format = "sha256"
+hash = "F458FEB1F032A3BCD84B72C3C17F14B43230AF94981F9DA1DECC78FF1AB92C77"
 
 [meta]
 author = "Vanilla Tweaks"
