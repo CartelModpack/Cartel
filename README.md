@@ -15,3 +15,7 @@ The **Lite**, **Normal**, and **Plus** versions of Cartel do not refer to any so
 ## Installation
 
 Available on [Modrinth](https://modrinth.com/modpack/cartel), or as a MultiMC pack from [Releases](https://github.com/CartelModpack/Cartel/releases).
+
+## Credits
+
+Credits are avalible in the [CREDITS.md](https://github.com/CartelModpack/Cartel/blob/master/CREDITS.md) file.
