@@ -18,4 +18,4 @@ Available on [Modrinth](https://modrinth.com/modpack/cartel), or as a MultiMC pa
 
 ## Credits
 
-Credits are avalible in the [CREDITS.md](https://github.com/CartelModpack/Cartel/blob/master/CREDITS.md) file.
+Credits are available  in the [CREDITS.md](https://github.com/CartelModpack/Cartel/blob/master/CREDITS.md) file.
