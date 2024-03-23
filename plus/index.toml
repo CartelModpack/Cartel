@@ -290,10 +290,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_basic.pw.toml"
-hash = "39507e0c7c2a5a6694c7de4b892bad7e57271158ad06cea9873514eb43c37414"
+hash = "71cade026089d2596991a17d35379368a2992998eb2b74fd8233cc3606a999ec"
 metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_enhanced.pw.toml"
-hash = "af1c8e4311852fac94a307b4bbf6e65e27bc6eb2b8c04d2cf8464b6e9bbd19da"
+hash = "6402f03a8832e207fb559968b2f4dd03ff339ce4c39747945edfbb0081b1f642"
 metafile = true

@@ -1,6 +1,4 @@
 # Exported Files
 bin/
 *.mrpack
-
-# Scripts
-scripts/
+*.zip
