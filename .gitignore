@@ -2,3 +2,6 @@
 bin/
 *.mrpack
 *.zip
+
+# Secret Files
+future/
