@@ -54,7 +54,7 @@
 - [Puzzle](https://modrinth.com/mod/puzzle) by [Motschen](https://modrinth.com/user/Motschen) (MIT License)
 - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options) by [FlashyReese](https://modrinth.com/user/FlashyReese) (MIT License)
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra) by [FlashyReese](https://modrinth.com/user/FlashyReese) (GNU Lesser General Public License v3.0 only)
-- [Sodium](https://modrinth.com/mod/sodium) by [IMS](https://modrinth.com/user/IMS) (GNU Lesser General Public License v3.0 only)
+- [Sodium](https://modrinth.com/mod/sodium) by [jellysquid3](https://modrinth.com/user/jellysquid3) (GNU Lesser General Public License v3.0 only)
 - [ToolTipFix](https://modrinth.com/mod/tooltipfix) by [kyrptonaught](https://modrinth.com/user/kyrptonaught) (MIT License)
 - [YetAnotherConfigLib](https://modrinth.com/mod/yacl) by [isxander](https://modrinth.com/user/isxander) (GNU Lesser General Public License v3.0 only)
 - [Zoomify](https://modrinth.com/mod/zoomify) by [isxander](https://modrinth.com/user/isxander) (GNU Lesser General Public License v3.0 only)
