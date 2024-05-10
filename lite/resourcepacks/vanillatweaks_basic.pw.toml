@@ -3,9 +3,9 @@ filename = "VanillaTweaks [Basic].zip"
 side = "client"
 
 [download]
-url = "https://theatrekids.uk/cartel/resource/1.0.0/global?p=protected/resources/VanillaTweaks [Basic].zip"
+url = "https://localhost/cartel/resource/1.1.0/global?p=protected/resources/VanillaTweaks [Basic].zip"
 hash-format = "sha256"
-hash = "7be8cb0700b4ef24c795ab4a2e40aeb1ea0d693dcbf82f431edfc9ba9c785701"
+hash = "b1610919208cbdfbf87e5b33f9482c8678565f68b9bae296946c0202f254f9a9"
 
 [meta]
 author = "Vanilla Tweaks"
