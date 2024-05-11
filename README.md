@@ -20,7 +20,8 @@ Installation
 
 Available on [Modrinth](https://modrinth.com/modpack/cartel), [Curseforge](https://legacy.curseforge.com/minecraft/modpacks/cartel) or as a MultiMC pack from [Releases](https://github.com/CartelModpack/Cartel/releases).
 
-Credits
+Credits / Changelog
 ----------
 
 Credits are available in the [CREDITS.md](https://github.com/CartelModpack/Cartel/blob/master/CREDITS.md) file.
+The Changelog is available in the [CREDITS.md](https://github.com/CartelModpack/Cartel/blob/master/CHANGELOG.md) file.
