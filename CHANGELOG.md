@@ -13,6 +13,6 @@ Due to the changes with the Mixin system in the new version of Minecraft and Fab
   - [CIT Resewn](https://modrinth.com/mod/cit-resewn)
   - [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next)
 
-## v1.0.0: Inital Release
+## v1.0.0: Initial Release
 
-This is the inital release of Cartel! Fabric version 0.15.7 and MC 1.20.4.
+This is the initial release of Cartel! Fabric version 0.15.7 and MC 1.20.4.
