@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "f56176c2ac792e8a84fcacb2953c1db3758e019162f60cfe7a91668798ac0348"
+hash = "31c1982e0a1c66db3e2e5320649f225ee71ea770afc6ba84254b44d1dd7f3e2b"
 
 [[files]]
 file = "config/modmenu.json"
@@ -41,11 +41,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "27f9b131c5f2db3267fe07cab7c104a5651cbdfbdc1f023374fe6d93f686f26b"
-metafile = true
-
-[[files]]
-file = "mods/ebe.pw.toml"
-hash = "179d1b7ca85bd3202749e2cc95413daec331dd37dbcf66d07f12a2cd1c0ee397"
 metafile = true
 
 [[files]]
@@ -104,11 +99,6 @@ hash = "2fa3ea42c8afb4a8959b689d099d6b9ecf55a5b0f17d350d6d00d33d83053b32"
 metafile = true
 
 [[files]]
-file = "mods/language-reload.pw.toml"
-hash = "037f6b72bde7b586901f261820197efb52a369cdad3557eeaaa7a3f8e9c19799"
-metafile = true
-
-[[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
 metafile = true
@@ -145,7 +135,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "a6a57004f5990ae59be0b89eb2edc5f50e2233d0410bd5f8060d58401592e0ef"
+hash = "b6c8fe81a75bc2c3292ef642e62985c2d9e270ad26f7aa044ff33b906425e8a8"
 metafile = true
 
 [[files]]
@@ -175,5 +165,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_basic.pw.toml"
-hash = "453722948c80460f74eff8a6c74752cd91637403dc258d629bda940243823076"
+hash = "37dd5f84ffda17d84739adc10f7f4aa3b264f97715dda7e686c5b29724246899"
 metafile = true

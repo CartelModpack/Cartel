@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/isxander-main-menu-credits.json"
-hash = "e6c569ec6a7e246a8d739a5be4b7fa2fc0bea5690f8abb610cb16549a6549d65"
+hash = "96afec4f1f0f55406b078cbab9b292ff47c27f86d3724a9cddf3147ba5e2afe3"
 
 [[files]]
 file = "config/modmenu.json"
@@ -54,11 +54,6 @@ hash = "0ec02dc51f734c7e6a5d3573a247d356e1e53a962e7c1d799a4bfc24afc68d9d"
 metafile = true
 
 [[files]]
-file = "mods/cit-resewn.pw.toml"
-hash = "7a4414a95295f22f036699300878058ddf043659fc95ac1bf1d7f725acb0bc46"
-metafile = true
-
-[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "2c24f3b7bb9e171e8a3784e2c9a29c30f8541cff26e086962013c504a6c1cdb0"
 metafile = true
@@ -76,11 +71,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "27f9b131c5f2db3267fe07cab7c104a5651cbdfbdc1f023374fe6d93f686f26b"
-metafile = true
-
-[[files]]
-file = "mods/ebe.pw.toml"
-hash = "179d1b7ca85bd3202749e2cc95413daec331dd37dbcf66d07f12a2cd1c0ee397"
 metafile = true
 
 [[files]]
@@ -164,11 +154,6 @@ hash = "d398662ae6e9d87e89384ba50a9787dbeb9425902a18b0cd8239efd0b966b453"
 metafile = true
 
 [[files]]
-file = "mods/language-reload.pw.toml"
-hash = "037f6b72bde7b586901f261820197efb52a369cdad3557eeaaa7a3f8e9c19799"
-metafile = true
-
-[[files]]
 file = "mods/lazydfu.pw.toml"
 hash = "b4ca05b39b85c27cd97ccb65d5fb832f5e9fd7ee5710542a3e69dfa30a97ea7d"
 metafile = true
@@ -205,7 +190,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "a6a57004f5990ae59be0b89eb2edc5f50e2233d0410bd5f8060d58401592e0ef"
+hash = "b6c8fe81a75bc2c3292ef642e62985c2d9e270ad26f7aa044ff33b906425e8a8"
 metafile = true
 
 [[files]]
@@ -250,10 +235,10 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_basic.pw.toml"
-hash = "453722948c80460f74eff8a6c74752cd91637403dc258d629bda940243823076"
+hash = "37dd5f84ffda17d84739adc10f7f4aa3b264f97715dda7e686c5b29724246899"
 metafile = true
 
 [[files]]
 file = "resourcepacks/vanillatweaks_enhanced.pw.toml"
-hash = "13f3b6f35b909258f5bf2e1301ccd82365138b9f13d1b17cfdd1a032b8d11f72"
+hash = "65dd6f86dfae695b6ba71832dba33aa85439c3d5fd5e13c971b15f1f5e5a9d0e"
 metafile = true

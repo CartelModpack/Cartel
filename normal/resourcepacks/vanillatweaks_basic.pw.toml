@@ -3,7 +3,7 @@ filename = "VanillaTweaks [Basic].zip"
 side = "client"
 
 [download]
-url = "https://localhost/cartel/resource/1.1.0/global?p=protected/resources/VanillaTweaks [Basic].zip"
+url = "https://theatrekids.uk/cartel/resource/1.1.0/global?p=protected/resources/VanillaTweaks [Basic].zip"
 hash-format = "sha256"
 hash = "b1610919208cbdfbf87e5b33f9482c8678565f68b9bae296946c0202f254f9a9"
 
