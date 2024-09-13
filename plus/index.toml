@@ -262,13 +262,3 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "85cec2590731659aabcdb88590492bd74c396bd42dceb9312d3c33f3b486ba78"
 metafile = true
-
-[[files]]
-file = "resourcepacks/vanillatweaks_basic.pw.toml"
-hash = "37dd5f84ffda17d84739adc10f7f4aa3b264f97715dda7e686c5b29724246899"
-metafile = true
-
-[[files]]
-file = "resourcepacks/vanillatweaks_enhanced.pw.toml"
-hash = "65dd6f86dfae695b6ba71832dba33aa85439c3d5fd5e13c971b15f1f5e5a9d0e"
-metafile = true

@@ -162,8 +162,3 @@ metafile = true
 file = "mods/yacl.pw.toml"
 hash = "00f143ea655549e902548575aff0fbffee69802bfe76a73b35187b05c690af07"
 metafile = true
-
-[[files]]
-file = "resourcepacks/vanillatweaks_basic.pw.toml"
-hash = "37dd5f84ffda17d84739adc10f7f4aa3b264f97715dda7e686c5b29724246899"
-metafile = true
