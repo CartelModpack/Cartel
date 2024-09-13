@@ -7,12 +7,17 @@ See [Releases](https://github.com/CartelModpack/Cartel/releases) for downloads.
 Sup. University is nuts, got busy but here is a version for 1.21.1.
 
 - Updated to MC 1.21.1 and Fabric 0.16.5
+- Removed VanillaTweaks, not work maintaining.
+- THe following were removed temporarily, until they are updated:
+  - [Amecs](https://modrinth.com/mod/amecs)
+  - [Borderless Mining](https://modrinth.com/mod/borderless-mining)
+  - [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves)
+  - [LazyDFU](https://modrinth.com/mod/lazydfu)
 - The following were added again:
   - [Enhanced Block Entities](https://modrinth.com/mod/ebe)
   - [Language Reload](https://modrinth.com/mod/language-reload)
   - [CIT Resewn](https://modrinth.com/mod/cit-resewn)
   - [Inventory Profiles Next](https://modrinth.com/mod/inventory-profiles-next)
-- Some more were removed, but idk which ones off the top of my head so refer to CREDITS.md for a complete list.
 
 ## v1.1.0-pre1: The Almost 1.20.6 Update
 
