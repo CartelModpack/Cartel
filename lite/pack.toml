@@ -1,16 +1,16 @@
 name = "Cartel [Lite]"
 author = "gavinhsmith"
-version = "1.1.0-pre1"
+version = "1.2.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "72a5fa4c7220f5f14e945a7f84fc5c490a9b9adcc315731f459b97ae7c865e57"
+hash = "1d36da461d32db9fcf4e3164740f5b2ebd06b3479cc66de65aea44ccb9ac9a06"
 
 [versions]
-fabric = "0.15.11"
-minecraft = "1.20.6"
+fabric = "0.16.5"
+minecraft = "1.21.1"
 
 [options]
-acceptable-game-versions = ["1.20.4", "1.20.5", "1.20.6"]
+acceptable-game-versions = ["1.21.1", "1.21"]
