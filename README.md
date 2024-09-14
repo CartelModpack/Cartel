@@ -8,6 +8,8 @@ Performance so good it should be a crime.
 Description
 --------------
 
+*At the moment, 1.21 is broken. Don't fret, it's just because there is so much broken mod stuff rn. It will come in time*
+
 Cartel is a Minecraft optimization mod pack centered on bringing next-generation performance without sacrificing QoL features from popular optimization mods such as OptiFine. Utilizing powerful mods such as Sodium, FerriteCore, etc allows you to run Minecraft almost *illegally* good
 
 Versions
