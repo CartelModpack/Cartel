@@ -169,11 +169,6 @@ hash = "3dd9d3933a5a332de135d0ecf252d367844ea71e895fc63648fc7339b95feeb3"
 metafile = true
 
 [[files]]
-file = "mods/lambdynamiclights.pw.toml"
-hash = "d398662ae6e9d87e89384ba50a9787dbeb9425902a18b0cd8239efd0b966b453"
-metafile = true
-
-[[files]]
 file = "mods/language-reload.pw.toml"
 hash = "4772d2d7620cb1f60562d9b139bdec190d80ab1aba55da31b9fb2351858d43ec"
 metafile = true
@@ -229,6 +224,11 @@ hash = "d0a050b2a5fbb6234f8555e9c7de9b5afd7d64cb022484f44bb96546e1350ac0"
 metafile = true
 
 [[files]]
+file = "mods/obsidianui.pw.toml"
+hash = "6247a7c55d598c185c0a78c6c2c10eac870b64bc4ab58039e98b9715b90b8e9b"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "a8e7b67fff22473839f2fbdbcdab78505e075774becfb0f5f589ee5f2f351d04"
 metafile = true
@@ -246,6 +246,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "491ee12ec90494bbed13bfef38eda7185a816a5a0e449b4b926ffbc2d8329a26"
+metafile = true
+
+[[files]]
+file = "mods/ryoamiclights.pw.toml"
+hash = "ea10b64e72890a0b0fac51f24c33c33ecee7e1fbe4c5d1ce7df053f65c004ba9"
 metafile = true
 
 [[files]]

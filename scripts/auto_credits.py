@@ -18,11 +18,20 @@ mod_credits = ""
 for mod in mods_list:
     with open("./plus/mods/" + mod, "rb") as mod_file:
         mod_file_data = tomllib.load(mod_file)
+        mod_project_id = mod_file_data.get("update").get("modrinth").get("mod-id")
         # Gets data from Modrinth
-        mod_meta_data = json.loads(requests.get("https://api.modrinth.com/v2/project/" + mod_file_data.get("update").get("modrinth").get("mod-id")).text)
-        mod_user_data = json.loads(requests.get("https://api.modrinth.com/v2/project/" + mod_file_data.get("update").get("modrinth").get("mod-id") + "/members").text)
-        print("Generating credits for " + mod_meta_data.get("title") + " by " + mod_user_data[-1].get("user").get("username") + "...")
-        mod_credits = mod_credits + "- [" + str(mod_meta_data.get("title")) + "](https://modrinth.com/mod/" + str(mod_meta_data.get("slug")) + ") by [" + str(mod_user_data[-1].get("user").get("username")) + "](https://modrinth.com/user/" + str(mod_user_data[-1].get("user").get("username")) + ") (" + str(mod_meta_data.get("license").get("name")) + ")\n"
+        mod_meta_data = json.loads(requests.get("https://api.modrinth.com/v2/project/" + mod_project_id).text)
+        mod_user_data = json.loads(requests.get("https://api.modrinth.com/v2/project/" + mod_project_id + "/members").text)
+        if (mod_meta_data.get("organization") and len(mod_user_data) <= 0):
+            author_link = "https://modrinth.com/organization/"
+            author_tag = mod_meta_data.get("organization")
+            author_name = "Organization {" + author_tag + "}"
+        else:
+            author_link = "https://modrinth.com/user/"
+            author_name = str(mod_user_data[-1].get("user").get("username"))
+            author_tag = author_name
+        print("Generating credits for " + mod_meta_data.get("title") + " by " + author_name + "...")
+        mod_credits = mod_credits + "- [" + str(mod_meta_data.get("title")) + "](https://modrinth.com/mod/" + str(mod_meta_data.get("slug")) + ") by [" + author_name + "](" + author_link + author_tag + ") (" + str(mod_meta_data.get("license").get("name")) + ")\n"
 
 print("Mod credits generated!")
 

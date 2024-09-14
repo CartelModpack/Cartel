@@ -8,7 +8,8 @@ Sup. University is nuts, got busy but here is a version for 1.21.1.
 
 - Updated to MC 1.21.1 and Fabric 0.16.5
 - Removed VanillaTweaks, not work maintaining.
-- THe following were removed temporarily, until they are updated:
+- Replaced [LambDynamicLights](https://modrinth.com/mod/lambdynamiclights) with [RyoamicLights](https://modrinth.com/mod/ryoamiclights)
+- The following were removed temporarily, until they are updated:
   - [Amecs](https://modrinth.com/mod/amecs)
   - [Borderless Mining](https://modrinth.com/mod/borderless-mining)
   - [Cull Less Leaves](https://modrinth.com/mod/cull-less-leaves)
