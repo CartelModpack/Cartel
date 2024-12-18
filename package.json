@@ -1,0 +1,17 @@
+{
+  "name": "Cartel",
+  "version": "2.0.0",
+  "description": "Performance so good it should be a crime.",
+  "main": "index.js",
+  "repository": "https://github.com/CartelModpack/Cartel.git",
+  "author": "Gavin Smith <me@gavinhsmith.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2"
+  }
+}
