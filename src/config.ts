@@ -1,19 +1,7 @@
+import Config from "./interfaces/config/Config";
+
 import DEFAULT_CONFIG from "../default_config.json";
 import conf from "config";
-
-export interface APIUrl {
-    protocol: "http" | "https",
-    url: string
-}
-export interface Config {
-    version: number,
-    config: {
-        api: {
-            server: APIUrl
-            modrinth: APIUrl
-        }
-    }
-}
 
 function getDepth(depth: string, next: string): string {
     return ((depth != "") ? depth + "." : "") + next;

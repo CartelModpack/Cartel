@@ -1,6 +1,7 @@
 # Node
 node_modules/
-config/
+/config/
+# Only care at the root. ^^^
 
 # Cartel Exported Files
 bin/
