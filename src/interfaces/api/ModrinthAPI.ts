@@ -1,6 +1,6 @@
 import Version from "../game/Version"
 
-export type ModrinthLoaders = "fabric";
+export type ModrinthLoader = "fabric";
 export interface ModrinthFile {
     hashes: {
         sha1: string,
@@ -14,7 +14,7 @@ export interface ModrinthFile {
 }
 export interface ModrinthProjectVersion {
     game_versions: Version[],
-    loaders: ModrinthLoaders[],
+    loaders: ModrinthLoader[],
     id: string,
     project_id: string,
     features: boolean,
