@@ -1,5 +1,6 @@
 # Node
 node_modules/
+config/
 
 # Cartel Exported Files
 bin/
