@@ -1,4 +1,3 @@
-import conf from "./config";
-const { config } = conf();
+import {version} from "./config";
 
-console.info(config.data);
+console.info("Config version: " + version);
