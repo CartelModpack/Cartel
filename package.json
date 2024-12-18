@@ -29,6 +29,6 @@
     "dev:server": "nodemon ./dist/index.js --watch ./dist",
     "dev": "npm-run-all clean build --parallel dev:build dev:server --print-label",
     "install:config": "node ./scripts/updateConfig.js",
-    "install": "npm-run-all install:config"
+    "install": "npm-run-all install:config build"
   }
 }
