@@ -6,6 +6,7 @@
   "repository": "https://github.com/CartelModpack/Cartel.git",
   "author": "Gavin Smith <me@gavinhsmith.com>",
   "license": "MIT",
+  "type": "module",
   "private": true,
   "dependencies": {
     "config": "^3.3.12",
@@ -24,11 +25,11 @@
     "clean": "rimraf dist",
     "build": "tsc",
     "launch": "node ./dist/index.js",
-    "start": "npm-run-all clean build launch",
+    "start": "npm-run-all clean build update:config launch",
     "dev:build": "tsc --watch",
     "dev:server": "nodemon ./dist/index.js --watch ./dist",
     "dev": "npm-run-all clean build --parallel dev:build dev:server --print-label",
-    "install:config": "node ./scripts/updateConfig.js",
-    "install": "npm-run-all install:config build"
+    "update:config": "node ./scripts/updateConfig.js",
+    "install": "npm-run-all build update:config"
   }
 }

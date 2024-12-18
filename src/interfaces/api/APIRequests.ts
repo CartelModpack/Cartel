@@ -1,4 +1,4 @@
-import config from "../../config";
+import config from "../../config.js";
 
 export interface APIUrl {
     protocol: "http" | "https",

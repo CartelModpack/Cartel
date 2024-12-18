@@ -1,13 +1,13 @@
 # Node
-node_modules/
+/node_modules/
 /config/
 # Only care at the root. ^^^
 
 # Cartel Exported Files
-bin/
-game/
+/bin/
+/game/
 *.mrpack
 *.zip
 
 # Typescript
-dist/
+/dist/

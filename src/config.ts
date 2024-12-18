@@ -1,6 +1,6 @@
-import Config from "./interfaces/config/Config";
+import Config from "./interfaces/config/Config.js";
 
-import DEFAULT_CONFIG from "../default_config.json";
+import DEFAULT_CONFIG from "../default_config.json" with {type: "json"};
 import conf from "config";
 
 function getDepth(depth: string, next: string): string {

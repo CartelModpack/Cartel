@@ -1,4 +1,4 @@
-import { APIUrl } from "../api/APIRequests";
+import { APIUrl } from "../api/APIRequests.js";
 
 export default interface Config {
     version: number,

@@ -1,4 +1,4 @@
-import Version from "../game/Version"
+import Version from "../game/Version.js"
 
 export type ModrinthLoader = "fabric";
 export interface ModrinthFile {

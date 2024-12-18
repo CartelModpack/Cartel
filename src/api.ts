@@ -1,8 +1,8 @@
 import path from "path";
-import config from "./config";
-import { APIName } from "./interfaces/api/APIRequests";
-import Version from "./interfaces/game/Version";
-import { ModrinthAPIVersionResponse, ModrinthLoader } from "./interfaces/api/ModrinthAPI";
+import config from "./config.js";
+import { APIName } from "./interfaces/api/APIRequests.js";
+import Version from "./interfaces/game/Version.js";
+import { ModrinthAPIVersionResponse, ModrinthLoader } from "./interfaces/api/ModrinthAPI.js";
 
 export function getRequest(server: APIName, endpoint: string, callback: (error: Error, response: Object) => void) {
     fetch(path.join(config.api[server].protocol + "://", config.api[server].url, endpoint))
