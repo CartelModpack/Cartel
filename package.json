@@ -27,7 +27,7 @@
     "launch": "node ./dist/index.js",
     "start": "npm-run-all clean build update:config launch",
     "dev:build": "tsc --watch",
-    "dev:server": "nodemon ./dist/index.js --watch ./dist",
+    "dev:server": "nodemon ./dist/index.js",
     "dev": "npm-run-all clean build --parallel dev:build dev:server --print-label",
     "update:config": "node ./scripts/updateConfig.js",
     "install": "npm-run-all build update:config"
