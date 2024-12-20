@@ -1,13 +1,9 @@
-import { getRequest } from "./api/api.js";
-import { downloadFile } from "./api/download.js";
+import args from "./installer/getDesiredVersion.js";
 import logger from "./logger.js";
-import FabricMetaAPIVersions from "./interfaces/api/FabricMetaAPI.js";
-import { exec } from "child_process";
-import { join } from "path";
-import CartelAPIResponse, {
-  CartelAPILatest,
-} from "./interfaces/api/CartelAPI.js";
 
+logger.info(JSON.stringify(args, null, 2));
+
+/*
 function printError(from: string) {
   return (error) => logger.error(`${from} > ${new Error(error)}`);
 }
@@ -34,7 +30,6 @@ getRequest("server", "/api/v1/latest")
   })
   .catch(printError("Cartel Server Request"));
 
-/*
 getRequest(
   "fabric",
   "/v2/versions/loader/:game_version/:loader_version/profile/json",
