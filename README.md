@@ -20,7 +20,9 @@ Cartel comes in a multitude a versions for every play style. The three I maintai
 
 ## Installation
 
-Available on [Modrinth](https://modrinth.com/modpack/cartel), [Curseforge](https://legacy.curseforge.com/minecraft/modpacks/cartel) or as a MultiMC pack from [Releases](https://github.com/CartelModpack/Cartel/releases).
+Just download the latest Cartel installer from [Releases](https://github.com/CartelModpack/Cartel/releases) and add it to your PATH. Run `cartel` from your command line and it will automatically set itself up in your Minecraft launcher.
+
+Premade packs available on [Modrinth](https://modrinth.com/modpack/cartel), [Curseforge](https://legacy.curseforge.com/minecraft/modpacks/cartel), or as a MultiMC pack from [Cartel-Server](https://github.com/CartelModpack/Cartel-Server).
 
 ## Credits / Changelog
 
