@@ -5,7 +5,7 @@
 
 # Cartel Exported Files
 /bin/
-/game/
+/cache/
 *.mrpack
 *.zip
 

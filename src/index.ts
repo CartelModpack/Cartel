@@ -1,14 +1,43 @@
-import { getModFile, getRequest } from "./api.js";
-import { downloadFile } from "./download.js";
+import { getRequest } from "./api/api.js";
+import { downloadFile } from "./api/download.js";
 import logger from "./logger.js";
 import FabricMetaAPIVersions from "./interfaces/api/FabricMetaAPI.js";
-import { exec, spawn } from "child_process";
+import { exec } from "child_process";
 import { join } from "path";
-import winston from "winston";
+import CartelAPIResponse, {
+  CartelAPILatest,
+} from "./interfaces/api/CartelAPI.js";
 
+function printError(from: string) {
+  return (error) => logger.error(`${from} > ${new Error(error)}`);
+}
+
+logger.info("Booting Cartel Updater...");
+getRequest("server", "/api/v1/latest")
+  .then((data: CartelAPIResponse<CartelAPILatest>) => {
+    if (data.status == 200) {
+      let { content } = data;
+      logger.info("Latest Versions: " + JSON.stringify(content, null, 0));
+      getRequest(
+        "fabric",
+        `/v2/versions/loader/${content.game}/${content.loader}/profile/json`
+      )
+        .then((fabricLoaderData: any) => {
+          logger.info(
+            `Would use "${fabricLoaderData.id}" as a base, renamed to "Cartel v${content.cartel} [${content.game}/4Fabric ${content.loader}]"`
+          );
+        })
+        .catch(printError("Fabric Request"));
+    } else {
+      logger.warn(`Status Code ${data.status}: ${data.error}`);
+    }
+  })
+  .catch(printError("Cartel Server Request"));
+
+/*
 getRequest(
   "fabric",
-  "/v2/versions",
+  "/v2/versions/loader/:game_version/:loader_version/profile/json",
   (error, response: FabricMetaAPIVersions) => {
     if (error) {
       logger.error(error);
@@ -39,3 +68,4 @@ getRequest(
     }
   }
 );
+*/

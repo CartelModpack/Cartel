@@ -27,12 +27,14 @@
     "clean": "rimraf dist",
     "build": "tsc",
     "launch": "node ./dist/index.js",
-    "start": "npm-run-all clean build update:config launch",
+    "start": "npm-run-all clean build update:paths update:config launch",
     "dev:build": "tsc --watch",
     "dev:server": "nodemon ./dist/index.js",
-    "dev": "npm-run-all clean build --parallel dev:build dev:server --print-label",
-    "update:config": "node ./scripts/updateConfig.js",
-    "preinstall": "git pull",
-    "install": "npm-run-all build update:config"
+    "dev": "npm-run-all clean build update:paths update:config --parallel dev:build dev:server --print-label",
+    "update:paths": "node ./dist/scripts/createPaths.js",
+    "update:config": "node ./dist/scripts/updateConfig.js",
+    "update": "git pull",
+    "preinstall": "yarn run update",
+    "install": "npm-run-all build update:paths update:config"
   }
 }
