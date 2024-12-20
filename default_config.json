@@ -2,14 +2,9 @@
   "version": 1,
   "config": {
     "api": {
-      "server": {
-        "protocol": "https",
-        "url": "cartel.theatrekids.uk"
-      },
-      "modrinth": {
-        "protocol": "https",
-        "url": "api.modrinth.com"
-      }
+      "server": "https://cartel.theatrekids.uk",
+      "modrinth": "https://api.modrinth.com",
+      "fabric": "https://meta.fabricmc.net"
     }
   }
 }

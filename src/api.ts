@@ -5,7 +5,7 @@ import Version from "./interfaces/game/Version.js";
 import { ModrinthAPIVersionResponse, ModrinthLoader } from "./interfaces/api/ModrinthAPI.js";
 
 export function getRequest(server: APIName, endpoint: string, callback: (error: Error, response: Object) => void) {
-    fetch(path.join(config.api[server].protocol + "://", config.api[server].url, endpoint))
+    fetch(path.join(config.api[server], endpoint))
         .then((res) => {
             res.json()
                 .then((json) => {
