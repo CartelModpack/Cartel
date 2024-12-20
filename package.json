@@ -29,7 +29,7 @@
     "clean": "rimraf dist",
     "build": "tsc",
     "launch": "node ./dist/index.js",
-    "start": "npm-run-all clean build update:paths update:config launch",
+    "start": "npm-run-all clean build update:paths update:config \"launch {@}\" --",
     "dev:build": "tsc --watch",
     "dev:server": "nodemon ./dist/index.js",
     "dev": "npm-run-all clean build update:paths update:config --parallel dev:build dev:server --print-label",
