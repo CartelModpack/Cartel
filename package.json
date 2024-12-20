@@ -32,6 +32,7 @@
     "dev:server": "nodemon ./dist/index.js",
     "dev": "npm-run-all clean build --parallel dev:build dev:server --print-label",
     "update:config": "node ./scripts/updateConfig.js",
+    "preinstall": "git pull",
     "install": "npm-run-all build update:config"
   }
 }
