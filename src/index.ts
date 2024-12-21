@@ -4,13 +4,18 @@ import CartelAPIResponse, {
   CartelAPILatest,
 } from "./interfaces/api/CartelAPI.js";
 import logger from "./logger.js";
+import { FabricMetaAPIVersionProfile } from "./interfaces/api/FabricMetaAPI.js";
+import { mkdir, writeFile } from "fs/promises";
+import { join } from "path";
 
+// Print errors out nicely
 function printError(errorFrom: string) {
   return (error: any) => logger.error(`${errorFrom} > ${error}`);
 }
 
 logger.info("Starting up Cartel Updater...");
 
+logger.info("Getting Latest Cartel Versions...");
 // Get the latest versions of cartel, fabric, mc, etc.
 getRequest("server", "/api/v1/latest")
   .then((cartelLatest: CartelAPIResponse<CartelAPILatest>) => {
@@ -31,8 +36,36 @@ getRequest("server", "/api/v1/latest")
       logger.info(
         `Installing Cartel v${cartelLatest.content.cartel} [${options.minecraft}/Fabric ${options.fabric}]`
       );
+
+      // Get default fabric profile data
+      logger.info("Getting Default Fabric Profile...");
+
+      getRequest("fabric", "/v2/versions/loader/1.21.4/0.16.9/profile/json")
+        .then((profileData: FabricMetaAPIVersionProfile) => {
+          let vers = "temp"; // This will be updated later...
+          profileData.id = `cartel-${vers}-${options.fabric}-${options.minecraft}`;
+
+          logger.info("Create Version in Launcher...");
+
+          mkdir(join(args.launcher, "/versions/", profileData.id))
+            .then(() => {
+              writeFile(
+                join(
+                  args.launcher,
+                  "/versions/",
+                  profileData.id,
+                  `${profileData.id}.json`
+                ),
+                JSON.stringify(profileData)
+              )
+                .then(() => {})
+                .catch(printError("Install Cartel Version"));
+            })
+            .catch(printError("Create Version Directory"));
+        })
+        .catch(printError("Get Default Fabric Profile"));
     } else {
-      printError("Cartel Server")(cartelLatest.error);
+      printError("Get Cartel Server Latest")(cartelLatest.error);
     }
   })
-  .catch(printError("Cartel Server"));
+  .catch(printError("Get Cartel Server Latest"));
