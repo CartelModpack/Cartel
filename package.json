@@ -38,6 +38,6 @@
     "update:config": "node ./dist/scripts/updateConfig.js",
     "update": "git pull",
     "preinstall": "yarn run update",
-    "install": "npm-run-all ts:build update:paths update:config"
+    "install": "npm-run-all clean ts:build update:paths update:config"
   }
 }
