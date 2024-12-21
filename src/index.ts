@@ -7,6 +7,7 @@ import logger from "./logger.js";
 import { FabricMetaAPIVersionProfile } from "./interfaces/api/FabricMetaAPI.js";
 import { mkdir, writeFile } from "fs/promises";
 import { join } from "path";
+import { createDir } from "./installer/file.js";
 
 // Print errors out nicely
 function printError(errorFrom: string) {
@@ -47,21 +48,25 @@ getRequest("server", "/api/v1/latest")
 
           logger.info("Create Version in Launcher...");
 
-          mkdir(join(args.launcher, "/versions/", profileData.id))
+          createDir(join(args.launcher, "/versions/", profileData.id))
             .then(() => {
-              writeFile(
-                join(
-                  args.launcher,
-                  "/versions/",
-                  profileData.id,
-                  `${profileData.id}.json`
+              Promise.all([
+                writeFile(
+                  join(
+                    args.launcher,
+                    "/versions/",
+                    profileData.id,
+                    `${profileData.id}.json`
+                  ),
+                  JSON.stringify(profileData)
                 ),
-                JSON.stringify(profileData)
-              )
+                createDir(join(args.launcher, "/mods")),
+                createDir(join(args.launcher, "/config")),
+              ])
                 .then(() => {})
-                .catch(printError("Install Cartel Version"));
+                .catch(printError("Install Cartel/Fabric Version"));
             })
-            .catch(printError("Create Version Directory"));
+            .catch(printError("Install Cartel/Fabric Version"));
         })
         .catch(printError("Get Default Fabric Profile"));
     } else {
