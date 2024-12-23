@@ -6,6 +6,7 @@ import {
   ModrinthLoader,
   ModrinthAPIShortFile,
 } from "../interfaces/api/ModrinthAPI.js";
+import logger from "../logger.js";
 
 export function getRequest(server: APIName, endpoint: string): Promise<any> {
   return new Promise((resolve, reject) => {
@@ -28,6 +29,8 @@ export function getModFile(
     )
       .then((res: ModrinthAPIVersions) => {
         resolve({
+          name: res[0].name,
+          file: res[0].files[0].filename,
           url: res[0].files[0].url,
           sha512: res[0].files[0].hashes.sha512,
         });
@@ -35,5 +38,31 @@ export function getModFile(
       .catch((error) => {
         reject(error);
       });
+  });
+}
+
+export function getAllModFiles(
+  ids: string[],
+  loader: ModrinthLoader,
+  version: string
+): Promise<ModrinthAPIShortFile[]> {
+  return new Promise((resolve, reject) => {
+    let fileData: ModrinthAPIShortFile[] = [];
+    let promises: Promise<ModrinthAPIShortFile>[] = [];
+
+    for (let id of ids) {
+      let promise = getModFile(id, loader, version);
+      promise.then((modData) => {
+        fileData.push(modData);
+      }).catch(() => {})
+      promises.push(promise);
+    }
+
+    Promise.all(promises).then(() => {
+      resolve(fileData);
+    }).catch((err) => {
+      reject(err);
+    })
+    
   });
 }

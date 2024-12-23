@@ -9,10 +9,20 @@ export interface CartelAPILatest {
   loader: string;
   installer: string;
 }
+export type CartelAPIModList = {
+  mod: string,
+  version: string
+}[];
 
-export interface CartelAPIResponse<T> {
+export interface CartelAPIErrorResponse {
   status: number;
-  content?: T;
-  error?: string;
+  content: never;
+  error: string;
 }
+export interface CartelAPISuccessResponse<T> {
+  status: 200;
+  content: T;
+  error: never;
+}
+export type CartelAPIResponse<T> = CartelAPISuccessResponse<T> | CartelAPIErrorResponse;
 export default CartelAPIResponse;

@@ -38,6 +38,7 @@ export function downloadFile(
   hash?: Hash
 ): Promise<void> {
   return new Promise((resolve, reject) => {
+
     logger.verbose(`Downloading file ${url} as ${fileName}...`);
     fetch(url)
       .then((res) => {
@@ -88,10 +89,10 @@ export function downloadAll(
     promises.push(
       downloadFile(
         urls[i],
+        savePath,
         fileNames != null && fileNames[i] != null
           ? fileNames[i]
           : path.basename(urls[i]),
-        savePath,
         hash != null && hash[i] != null ? hash[i] : null
       )
     );

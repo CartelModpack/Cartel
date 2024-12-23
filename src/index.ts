@@ -1,13 +1,15 @@
-import { getRequest } from "./api/api.js";
+import { getAllModFiles, getRequest } from "./api/api.js";
 import args from "./installer/getDesiredVersion.js";
 import CartelAPIResponse, {
   CartelAPILatest,
+  CartelAPIModList,
 } from "./interfaces/api/CartelAPI.js";
 import logger from "./logger.js";
 import { FabricMetaAPIVersionProfile } from "./interfaces/api/FabricMetaAPI.js";
 import { mkdir, writeFile } from "fs/promises";
 import { join } from "path";
 import { createDir } from "./installer/file.js";
+import { downloadAll, Hash } from "./installer/download.js";
 
 // Print errors out nicely
 function printError(errorFrom: string) {
@@ -50,6 +52,8 @@ getRequest("server", "/api/v1/latest")
 
           createDir(join(args.launcher, "/versions/", profileData.id))
             .then(() => {
+              logger.info("Setting up version...");
+
               Promise.all([
                 writeFile(
                   join(
@@ -63,7 +67,33 @@ getRequest("server", "/api/v1/latest")
                 createDir(join(args.launcher, "/mods")),
                 createDir(join(args.launcher, "/config")),
               ])
-                .then(() => {})
+                .then(() => {
+                  logger.info("Getting mod files...");
+
+                  getRequest("server", `/api/v1/content/vanilla/${options.minecraft}/mods`).then((modData: CartelAPIResponse<CartelAPIModList>) => {
+                    let ids: string[] = [];
+                    for (let data of modData.content) {
+                      ids.push(data.mod);
+                    }
+
+                    getAllModFiles(ids, "fabric", options.minecraft).then((modFiles) => {
+                      let urls: string[] = [], names: string[] = [], hashes: Hash[] = [];
+
+                      for (let mod of modFiles) {
+                        urls.push(mod.url);
+                        names.push(mod.file);
+                        hashes.push({
+                          type: "sha512",
+                          hash: mod.sha512
+                        });
+                      }
+
+                      downloadAll(urls, join(args.launcher, "/mods"), names, hashes).then(() => {
+
+                      }).catch(printError("Install Cartel/Fabric Version [Mods]"));
+                    }).catch(printError("Install Cartel/Fabric Version [Mods 1]"));
+                  }).catch(printError("Install Cartel/Fabric Version [Mods]"));
+                })
                 .catch(printError("Install Cartel/Fabric Version"));
             })
             .catch(printError("Install Cartel/Fabric Version"));

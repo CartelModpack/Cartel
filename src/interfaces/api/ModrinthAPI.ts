@@ -11,6 +11,8 @@ export interface ModrinthAPIFile {
   file_type: string;
 }
 export interface ModrinthAPIShortFile {
+  name: string;
+  file: string;
   url: string;
   sha512: string;
 }
