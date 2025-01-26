@@ -7,16 +7,25 @@
     "email": "me@gavinhsmith.com",
     "url": "https://gavinhsmith.com"
   },
-  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "cartel": "./dist/index.js"
+  },
   "packageManager": "yarn@4.4.1",
   "dependencies": {
     "@iarna/toml": "^2.2.5"
   },
   "scripts": {
-    "credits": "node ./scripts/credits.js",
-    "refresh": "node ./scripts/refresh.js",
-    "build": "node ./scripts/build.js",
-    "update": "node ./scripts/update.js",
-    "upgrade": "node ./scripts/upgrade.js"
+    "scripts:credits": "node ./scripts/credits.js",
+    "scripts:refresh": "node ./scripts/refresh.js",
+    "scripts:build": "node ./scripts/build.js",
+    "scripts:update": "node ./scripts/update.js",
+    "scripts:upgrade": "node ./scripts/upgrade.js",
+    "build": "tsc",
+    "dev": "node --trace-warnings ."
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.10",
+    "typescript": "^5.7.3"
   }
 }
