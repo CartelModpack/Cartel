@@ -8,9 +8,7 @@
     "url": "https://gavinhsmith.com"
   },
   "main": "./dist/index.js",
-  "bin": {
-    "cartel": "./dist/index.js"
-  },
+  "bin": "./dist/index.js",
   "packageManager": "yarn@4.4.1",
   "dependencies": {
     "@iarna/toml": "^2.2.5"

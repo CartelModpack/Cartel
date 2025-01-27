@@ -28,6 +28,8 @@ __metadata:
     "@iarna/toml": "npm:^2.2.5"
     "@types/node": "npm:^22.10.10"
     typescript: "npm:^5.7.3"
+  bin:
+    cartel: ./dist/index.js
   languageName: unknown
   linkType: soft
 
