@@ -21,7 +21,7 @@
     "scripts:update": "node ./scripts/update.js",
     "scripts:upgrade": "node ./scripts/upgrade.js",
     "build": "tsc",
-    "dev": "node --trace-warnings ."
+    "dev": "node --trace-warnings ./dist/cli/index.js"
   },
   "devDependencies": {
     "@types/node": "^22.10.10",
