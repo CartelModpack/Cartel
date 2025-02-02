@@ -4,8 +4,14 @@
   "description": "Performance so good it should be a crime.",
   "author": "gavinhsmith",
   "version": "2.0.0",
-  "targets": ["1.21.4"],
+  "targets": [
+    "1.21.4"
+  ],
   "main": "base",
-  "variants": ["main", "enhanced", "advanced"],
+  "variants": [
+    "base",
+    "enhanced",
+    "advanced"
+  ],
   "packwiz": "packwiz"
 }

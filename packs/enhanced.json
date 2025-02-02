@@ -2,5 +2,108 @@
   "name": "Enhanced",
   "slug": "enhanced",
   "inherits": "base",
-  "resources": []
+  "resources": [
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "animatica",
+      "id": "PRN43VSY"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "better-mount-hud",
+      "id": "kqJFAPU9"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "betterf3",
+      "id": "8shC1gFX"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "capes",
+      "id": "89Wsn8GD"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "cit-resewn",
+      "id": "otVJckYQ"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "continuity",
+      "id": "1IjD5062"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "entity-model-features",
+      "id": "4I1XuqiY"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "entitytexturefeatures",
+      "id": "BVzZfTc1"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "fabricskyboxes-interop",
+      "id": "HpdHOPOp"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "fabricskyboxes",
+      "id": "YBz7DOs8"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "fabrishot",
+      "id": "3qsfQtE9"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "iris",
+      "id": "YL57xq9U"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "zoomify",
+      "id": "w7ThoJFB"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "obsidianui",
+      "id": "E0L8mfJZ"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "optigui",
+      "id": "JuksLGBQ"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "puzzle",
+      "id": "3IuO68q1"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "lambdynamiclights",
+      "id": "yBW8D80W"
+    }
+  ]
 }

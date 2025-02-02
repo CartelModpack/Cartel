@@ -2,5 +2,174 @@
   "name": "Base",
   "slug": "base",
   "inherits": null,
-  "resources": []
+  "resources": [
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "modmenu",
+      "id": "mOgUt4GM"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "c2me-fabric",
+      "id": "VSNURh3q"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "architectury-api",
+      "id": "lhGA9TYQ"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "cloth-config",
+      "id": "9s6osm5g"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "dynamic-fps",
+      "id": "LQ3K71Q1"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "ebe",
+      "id": "OVuFYfre"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "entityculling",
+      "id": "NNAgCjsB"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "fabric-api",
+      "id": "P7dR8mSH"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "fabric-language-kotlin",
+      "id": "Ha28R6CL"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "ferrite-core",
+      "id": "uXXizFIs"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "immediatelyfast",
+      "id": "5ZwdcRci"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "krypton",
+      "id": "fQEb0iXm"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "ksyxis",
+      "id": "2ecVyZ49"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "language-reload",
+      "id": "uLbm7CG6"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "lithium",
+      "id": "gvQqBUqZ"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "main-menu-credits",
+      "id": "qJDfP7WN"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "modelfix",
+      "id": "QdG47OkI"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "no-chat-reports",
+      "id": "qQyHxfxd"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "placeholder-api",
+      "id": "eXts2L7r"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "reeses-sodium-options",
+      "id": "Bh37bMuy"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "sodium-extra",
+      "id": "PtjYWJkn"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "sodium",
+      "id": "AANobbMI"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "yacl",
+      "id": "1eAoo2KR"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "yosbr",
+      "id": "WwbubTsV"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "chunky",
+      "id": "fALzjamp"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "fastquit",
+      "id": "x1hIzbuY"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "mixintrace",
+      "id": "sGmHWmeL"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "nvidium",
+      "id": "SfMw2IZN"
+    }
+  ]
 }

@@ -2,5 +2,54 @@
   "name": "Advanced",
   "slug": "advanced",
   "inherits": "enhanced",
-  "resources": []
+  "resources": [
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "appleskin",
+      "id": "EsAfCjCV"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "clickthrough",
+      "id": "Z5b0cAlD"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "craftpresence",
+      "id": "DFqQfIBR"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "inventory-profiles-next",
+      "id": "O7RBXm3n"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "libipn",
+      "id": "onSQdWhM"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "midnightcontrols",
+      "id": "bXX9h73M"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "midnightlib",
+      "id": "codAaoxh"
+    },
+    {
+      "source": "modrinth",
+      "type": "mod",
+      "name": "unilib",
+      "id": "nT86WUER"
+    }
+  ]
 }
