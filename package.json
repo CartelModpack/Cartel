@@ -1,19 +1,23 @@
 {
-  "name": "crystal-ball",
-  "description": "The Cartel Modpack",
+  "name": "cartel",
+  "description": "Performance so good it should be a crime.",
   "version": "1.3.0",
   "author": {
     "name": "gavinhsmith",
     "email": "me@gavinhsmith.com",
     "url": "https://gavinhsmith.com"
   },
-  "main": "./dist/core/index.js",
-  "bin": "./dist/cli/index.js",
-  "packageManager": "yarn@4.4.1",
-  "dependencies": {
-    "@iarna/toml": "^2.2.5",
-    "commander": "^13.1.0"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CartelModpack/Crystal.git"
   },
+  "bugs": {
+    "url": "https://github.com/CartelModpack/Crystal/issues"
+  },
+  "homepage": "https://github.com/CartelModpack/Crystal#readme",
+  "private": true,
+  "packageManager": "yarn@4.4.1",
   "scripts": {
     "scripts:credits": "node ./scripts/credits.js",
     "scripts:refresh": "node ./scripts/refresh.js",
@@ -22,9 +26,5 @@
     "scripts:upgrade": "node ./scripts/upgrade.js",
     "build": "tsc",
     "dev": "node --trace-warnings ./dist/cli/index.js"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.10",
-    "typescript": "^5.7.3"
   }
 }

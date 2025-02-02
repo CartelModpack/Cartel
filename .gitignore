@@ -104,3 +104,7 @@ out/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Pack Sources
+/bin/
+/exports/
